@@ -5,7 +5,7 @@ import { Text, View, Image, ScrollView, ActivityIndicator, FlatList } from "reac
 import SearchBar from "../components/searchBar";
 import MovieCard from "../components/MovieCard"
 import { useRouter } from "expo-router";
-import fetchTangina from "@/services/fetchTangina";
+import fetchTangina from "@/services/useFetch";
 import { fetchMovies } from "@/services/api";
 
 interface Props {
